@@ -1,0 +1,5 @@
+NODE-XMLHTTPREQUEST-STATUS:200,{
+"module":{"productName":"Yocto-Thermocouple","serialNumber":"THRMCPL1-06DA8","logicalName":"","productId":40,"productRelease":1,"firmwareRelease":"15430","persistentSettings":0,"luminosity":50,"beacon":0,"upTime":13003943,"usbCurrent":26,"rebootCountdown":0,"usbBandwidth":0},
+"temperature1":{"logicalName":"field1","advertisedValue":"26.9","unit":"'C","currentValue":1748992,"lowestValue":24576,"highestValue":1773568,"currentRawValue":1748992,"logFrequency":"1/s","reportFrequency":"OFF","calibrationParam":"Y@00","resolution":6554,"sensorType":1},
+"temperature2":{"logicalName":"field2","advertisedValue":"26.1","unit":"'C","currentValue":1708032,"lowestValue":24576,"highestValue":2367488,"currentRawValue":1708032,"logFrequency":"1/s","reportFrequency":"OFF","calibrationParam":"Y@00","resolution":6554,"sensorType":1},
+"dataLogger":{"logicalName":"","advertisedValue":"","currentRunIndex":0,"timeUTC":1403174623,"recording":0,"autoStart":0,"clearHistory":0}}

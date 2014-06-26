@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bbq-pi">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/0.0.2/bbq-pi.css"/>
+    <script type="text/javascript" src="/static/0.0.2/angular.js"></script>
+    <script type="text/javascript" src="/static/0.0.2/bbq-pi.js"></script>
+</head>
+
+<body ng-controller="AppCtrl">
+
+    <div id="screen">
+        <div ng-repeat="t in temps track by $index" class="trow">
+            <span class="thead">T{{ $index + 1 }}:</span> <span class="tvalue">{{ t | number : 1 }}°C</span>
+        </div>
+    </div>
+
+</body>
+</html>
